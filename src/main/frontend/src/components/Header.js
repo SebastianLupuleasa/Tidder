@@ -38,6 +38,8 @@ export default function Header() {
        <nav className="Nav">
           <SearchBar />
           <img src={userlogo} className="userLogo" alt="logo" />   
+          <button>Sign up</button>
+          <button>Log in</button>
         </nav>
        </header>
   );
