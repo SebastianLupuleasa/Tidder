@@ -1,0 +1,27 @@
+.feedContainer
+{
+margin:5%;
+background-color: transparent;
+border:1px solid black;
+}
+
+.questionDiv {
+    background-color: gold;
+    width: 50%;
+    margin-left:25%;
+    border-radius: 1px solid black;
+    margin:2%;
+}
+
+.imageQuestion {
+    display: inline-block;
+}
+
+.questionDiv p {
+    display: inline-block;
+}
+
+.askContainer
+{
+    margin-left: 45%;
+}

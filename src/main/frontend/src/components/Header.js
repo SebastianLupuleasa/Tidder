@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from '../assets/tiddertt.png'
-import redditlogo from '../assets/redditlogo.png'
+import userlogo from '../assets/userlogo.jpg'
 import { CSSTransition } from "react-transition-group";
 import SearchBar from "./SearchBar";
 
@@ -37,7 +37,7 @@ export default function Header() {
       <img src={logo} className="Logo" alt="logo" />
        <nav className="Nav">
           <SearchBar />
-          <img src={redditlogo} className="redditLogo" alt="logo" />   
+          <img src={userlogo} className="userLogo" alt="logo" />   
         </nav>
        </header>
   );

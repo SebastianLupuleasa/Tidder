@@ -6,6 +6,7 @@ background-color: transparent;
 justify-content: center;
 align-items: center;
 text-align: center;
+border:1px solid black;
 }
 
 .trendingContainer h1
@@ -25,6 +26,7 @@ text-align: center;
 
 .trendingContainer > * {
     margin: 30px 15px;
+    margin-bottom: 5%;
 }
 
 .trendingContainer > *:first-child {

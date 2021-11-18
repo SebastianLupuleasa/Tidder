@@ -17,11 +17,11 @@
     height: 70px;
   }
   
-   .redditLogo{
+   .userLogo{
      border-radius: 50%;
-     max-width: 25%;
-     max-height: 85%;
-    }
+     max-width: 22%;
+     max-height: 75%;
+     }
 
   .Nav {
     display: grid;
