@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Footer from './components/Footer'
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
+import Trending from './components/Trending';
+import Feed from './components/Feed';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <App />
-    <Footer/>
+    <Trending />
+    <Feed />
   </React.StrictMode>,
   document.getElementById('root')
 );

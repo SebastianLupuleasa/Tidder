@@ -1,0 +1,34 @@
+
+
+.trendingContainer {
+margin:5%;
+background-color: transparent;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.trendingContainer h1
+{
+    text-align: left;
+    margin-left: 15%;
+    font-size:20px;
+}
+
+.trendingItem{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+
+.trendingContainer > * {
+    margin: 30px 15px;
+}
+
+.trendingContainer > *:first-child {
+    margin:0;
+    margin-left: 10px;
+
+}

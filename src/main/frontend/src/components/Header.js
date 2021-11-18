@@ -1,7 +1,10 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useEffect } from "react";
 import "./Header.css";
+import logo from '../assets/tiddertt.png'
+import redditlogo from '../assets/redditlogo.png'
 import { CSSTransition } from "react-transition-group";
+import SearchBar from "./SearchBar";
 
 export default function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
@@ -31,23 +34,12 @@ export default function Header() {
 
   return (
     <header className="Header">
-      <img src={require("../assets/tiddertt.png")} className="Logo" alt="logo" />
-      <CSSTransition
-        in={!isSmallScreen || isNavVisible}
-        timeout={350}
-        classNames="NavAnimation"
-        unmountOnExit
-      >
-        <nav className="Nav">
-          <a href="/">Home</a>
-          <a href="/">Articles</a>
-          <a href="/">About</a>
-          <button>Logout</button>
+      <img src={logo} className="Logo" alt="logo" />
+       <nav className="Nav">
+          <SearchBar />
+          <img src={redditlogo} className="redditLogo" alt="logo" />   
         </nav>
-      </CSSTransition>
-      <button onClick={toggleNav} className="Burger">
-        🍔
-      </button>
-    </header>
+       </header>
   );
 }
+ 

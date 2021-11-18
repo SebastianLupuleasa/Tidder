@@ -1,0 +1,32 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.container { 
+    position:relative;
+    padding:0;
+    margin:0;
+}
+.input { 
+    height:20px;
+    margin:0;
+    padding-left:30px;
+}
+
+.image {
+    background-color: gainsboro;
+    padding: 10px;
+    position:absolute;
+    padding-top:7px;
+    padding-bottom: 4px;
+    bottom:0px;
+    left:-40px;
+    width:20px;
+    height:20px;
+}
