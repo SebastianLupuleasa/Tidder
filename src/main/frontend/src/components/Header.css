@@ -15,6 +15,14 @@
   .Logo {
     grid-area: logo;
     height: 70px;
+    margin-left: 15%;
+    width: 100px;
+    border-left: 25px solid #FF7276;
+    border-right: 25px solid #FF7276;
+  }
+
+  .Logo:hover{
+    cursor: pointer;
   }
   
    .userLogo{
@@ -22,6 +30,11 @@
      max-width: 22%;
      max-height: 75%;
      }
+
+     .userLogo:hover{
+      cursor: pointer;
+    }
+    
 
   .Nav {
     display: grid;

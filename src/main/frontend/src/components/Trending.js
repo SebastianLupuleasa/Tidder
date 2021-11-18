@@ -6,15 +6,15 @@ export default function Trending() {
     return (
       <div class="trendingContainer">
 
-       <h1>Burning questions: </h1>
+       <h1>Popular questions: </h1>
  
-       <div  class="trendingItem"> question #1 </div>
+       <div  class="trendingItem"> Why ducks have feather? </div>
               
-       <div  class="trendingItem"> question #2 </div>
+       <div  class="trendingItem"> Where is the moon? </div>
          
-       <div  class="trendingItem"> question #3 </div>
+       <div  class="trendingItem"> Is it monday? </div>
        
-       <div  class="trendingItem"> question #4 </div>
+       <div  class="trendingItem"> Can I microwave my smartphone? </div>
 
       </div>
     );

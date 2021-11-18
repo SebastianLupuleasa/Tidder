@@ -3,14 +3,13 @@
 margin:5%;
 background-color: transparent;
 border:1px solid black;
+border-radius: 15px;
 }
 
 .questionDiv {
-    background-color: gold;
-    width: 50%;
+    background-color: ghostwhite;
     margin-left:25%;
-    border-radius: 1px solid black;
-    margin:2%;
+    margin:1%;
 }
 
 .imageQuestion {
@@ -23,5 +22,36 @@ border:1px solid black;
 
 .askContainer
 {
-    margin-left: 45%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.askContainer input
+{
+    width:600px;
+    height: 35px;
+    margin-right: 2%;
+    
+}
+
+.askContainer button {
+width:50px;
+height: 40px;
+background-color: lightgray;
+border: 1px solid black;
+border-radius: 25%;
+}
+
+.askContainer button:hover {
+  cursor: pointer;
+
+    }
+
+.questionDiv:hover{
+        cursor:pointer;
+    }
+
+.statsDiv{
+    margin-left: 1150px;
+    display: inline-block; 
 }

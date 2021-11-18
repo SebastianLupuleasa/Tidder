@@ -10,8 +10,8 @@ const SearchBar = ({keyword,setKeyword}) => {
      style={BarStyling}
      key="random1"
      value={keyword}
-     placeholder={"search Tidder"}
-     onChange={(e) => setKeyword(e.target.value)}
+     placeholder={"search question..."}
+     // onChange={(e) => setKeyword(e.target.value)}
     />
    </div> 
   );
