@@ -1,9 +1,9 @@
 .feedContainer
 {
 margin:5%;
+margin-left: 15%;
+width: 50%;
 background-color: transparent;
-border:1px solid black;
-border-radius: 15px;
 }
 
 .questionDiv {
@@ -22,7 +22,7 @@ border-radius: 15px;
 
 .askContainer
 {
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 2%;
 }
 
@@ -50,8 +50,19 @@ border-radius: 25%;
 .questionDiv:hover{
         cursor:pointer;
     }
+ .statsDiv{
+    margin-left: 550px;
+     
+}
 
-.statsDiv{
-    margin-left: 1150px;
-    display: inline-block; 
+#sortQuestion
+{
+    margin-left: 1%;
+    height: 25px;
+    border: 1px solid black;
+}
+
+
+a:visited {
+ color: black;
 }

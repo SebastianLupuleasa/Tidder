@@ -19,8 +19,13 @@ export default function Trending() {
         <input placeholder="Ask a question..."></input>  
          <button>Ask</button>
          </div>
-         Recent questions \/                      
-         <div class="questionDiv">&nbsp;<img src={check} class="imageQestion"></img>&nbsp;<p>Where is my cheese?<div class="statsDiv"> <img src={view} class="imageQuestion"></img>&nbsp;22<img src={comment} class="imageQuestion"></img>&nbsp;4<img src={clock} class="imageQuestion"></img>&nbsp;22:32<img src={author} class="imageQuestion"></img>&nbsp;Mark Zuckenberg</div></p></div>
+         <select name="sortQuestion" id="sortQuestion">
+        <option value="recentQuestions">Recent Questions</option>
+        <option value="popularQuestions">Popular Questions</option>
+        <option value="hotQuestions">Hot Questions</option>
+        <option value="mostAnsweredQuestions">Most Answered</option>
+      </select>                    
+         <div class="questionDiv">&nbsp;<a href="/question"><img src={check} class="imageQuestion"></img>&nbsp;<p>Where is my cheese?<div class="statsDiv"> <img src={view} class="imageQuestion"></img>&nbsp;22<img src={comment} class="imageQuestion"></img>&nbsp;4<img src={clock} class="imageQuestion"></img>&nbsp;22:32<img src={author} class="imageQuestion"></img>&nbsp;Mark Zuckenberg</div></p></a></div>
          <div class="questionDiv">&nbsp;<img src={x} class="imageQuestion"></img>&nbsp;<p>Are you an astronaut?<div class="statsDiv"> <img src={view} class="imageQuestion"></img >&nbsp;33<img src={comment} class="imageQuestion"></img>&nbsp;2<img src={clock} class="imageQuestion"></img>&nbsp;02:14<img src={author} class="imageQuestion"></img>&nbsp;Jeffrey Bezos</div></p></div>
          <div class="questionDiv">&nbsp;<img src={question} class="imageQuestion"></img>&nbsp;<p>Can i drink water?<div class="statsDiv"> <img src={view} class="imageQuestion"></img>&nbsp;44<img src={comment} class="imageQuestion"></img>&nbsp;9<img src={clock} class="imageQuestion"></img>&nbsp;01:11<img src={author} class="imageQuestion"></img>&nbsp;Elon Musk</div></p> </div>
          <div class="questionDiv">&nbsp;<img src={check} class="imageQestion"></img>&nbsp;<p>Where is my cheese?<div class="statsDiv"> <img src={view} class="imageQuestion"></img>&nbsp;22<img src={comment} class="imageQuestion"></img>&nbsp;4<img src={clock} class="imageQuestion"></img>&nbsp;22:32<img src={author} class="imageQuestion"></img>&nbsp;Mark Zuckenberg</div></p></div>

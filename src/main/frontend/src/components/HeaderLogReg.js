@@ -36,7 +36,6 @@ export default function Header() {
     <header className="Header">
       <a href="../"><img src={logo} className="Logo" alt="logo" /></a>
        <nav className="Nav">
-          <SearchBar />
           <img src={userlogo} className="userLogo" alt="logo" />   
           <a href="/register"> <button>Sign up</button> </a>
           <a href="/login"> <button>Log in</button> </a>
